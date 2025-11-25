@@ -3,6 +3,7 @@
 #include <string.h>
 int main() {
     char str[100];
+    printf("enter a string:");
     scanf("%s", str);
     
     int len = strlen(str);
@@ -13,3 +14,5 @@ int main() {
     
     return 0;
 }
+
+
