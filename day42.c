@@ -1,10 +1,9 @@
 //Q83: Count vowels and consonants in a string.
-
-
 #include <stdio.h>
 #include <string.h>
 int main() {
     char str[100];
+    printf("enter a string:");
     scanf("%s", str);
     
     int vow = 0, cons = 0;
@@ -21,3 +20,4 @@ int main() {
     printf("Vowels=%d, Consonants=%d\n", vow, cons);
     return 0;
 }
+
