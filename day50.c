@@ -3,6 +3,7 @@
 #include <string.h>
 int main() {
     char date[11];
+    printf("enter a date:");
     scanf("%s", date);
 
     // Extract day, month, and year
@@ -33,4 +34,5 @@ int main() {
     printf("%s-%s-%s\n", day, month_abbr, year);
 
     return 0;
+
 }
