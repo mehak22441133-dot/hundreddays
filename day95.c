@@ -1,19 +1,11 @@
 //Q145: Return a structure containing top student's details from a function.
 
-/*
-Sample Test Cases:
-Input 1:
-3 students: Riya 101 89, Karan 102 96, Meena 103 92
-Output 1:
-Top Student: Karan | Roll: 102 | Marks: 96
 
-*/
 #include <stdio.h>
 struct Student {
     char name[50];
     int roll_no;
-    float marks;
-};
+    float marks;      };
 void printStudent(struct Student s) {
     printf("Name: %s | Roll: %d | Marks: %.2f\n", s.name, s.roll_no, s.marks);
 }
@@ -45,3 +37,4 @@ int main() {
     printStudent(topper);
     return 0;
 }
+
